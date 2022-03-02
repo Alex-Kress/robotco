@@ -12,6 +12,10 @@ html, body {
 header {
     background: #47a0ce;
     text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
 }
 
 nav {
@@ -35,6 +39,7 @@ main {
     position: relative;
     top: 20px;
     padding: 10px;
+    background-color: #47a0ce;
 }
 
 #logo-container h2 {
@@ -42,12 +47,11 @@ main {
 }
 
 .bg-dark {
-    background: black;
-    color: #47a0ce;
+    font: black;
 }
 
 .bg-dark a {
-    color: #47a0ce;
+    color: black;
 }
 
 #hero {
@@ -65,6 +69,31 @@ main {
     margin: 0 30px;
 }
 
+#gallery {
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .gallery-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    color: white;
+    margin: 2px;
+    width: 240px;
+    height: 240px;
+  }
+
 footer {
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color:#47a0ce;
+    justify-content: space-between;
+
 }
